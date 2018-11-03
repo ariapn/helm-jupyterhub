@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  jupyterhub:
+  - appVersion: 0.9.4
+    created: 2018-11-03T04:40:36.700044372-05:00
+    description: Multi-user Jupyter installation
+    digest: a4dc5da37e65e60ca29be59f6f8bec1272e0752e44ad58fcf66c6703f48658bd
+    home: https://z2jh.jupyter.org
+    icon: https://jupyter.org/assets/hublogo.svg
+    kubeVersion: '>=1.8.0-0'
+    name: jupyterhub
+    sources:
+    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s/tree/master/jupyterhub
+    tillerVersion: '>=2.9.1-0'
+    urls:
+    - https://gitlab.engr.illinois.edu/novianto/helm-jupyterhub/raw/master/jupyterhub-0.8-apn.tgz
+    version: 0.8-apn
+generated: 2018-11-03T04:40:36.694886583-05:00
